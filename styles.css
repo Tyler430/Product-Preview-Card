@@ -119,6 +119,17 @@ main img {
     top: .2rem;
 }
 
+footer {
+    position: absolute;
+    top: 45rem;
+    left: 48rem;
+    font-family: var(--fontFraunces);
+}
+
+footer a {
+    color: var(--clr-Cyan);
+}
+
 @media (max-width: 375px) {
     .container {
         flex-direction: column;
